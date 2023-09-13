@@ -27,7 +27,7 @@
 
 <body class="bg-white font-lato text-black">
 
-    <header class="mb-64">
+    <header class="lg:mb-64">
 
         <nav class="mb-16">
             <div class=" w-11/12 rounded-full mx-auto flex justify-between items-center bg-[#F85559] text-white">
@@ -163,57 +163,105 @@
 
         <!-- ====================== Fruits section ==========================-->
 
-<div class="hidden lg:flex grid-cols-5  gap-0 absolute -mt-40 ml-32 bg-white rounded-lg shadow-2xl">
-    <div class="card w-11/12 mx-auto bg-base-100">
-        <figure class="px-10 pt-10">
-          <img src="images/fruit1.png" alt="Shoes" class="" />
-        </figure>
-        <div class="card-body items-center text-center">
-          <p>Grape</p>         
-        </div>
-      </div>
-    <div class="card w-11/12 mx-auto bg-base-100">
-        <figure class="px-10 pt-10">
-          <img src="images/fruit2.png" alt="Shoes" class="" />
-        </figure>
-        <div class="card-body items-center text-center">
-          <p>Orange</p>         
-        </div>
-      </div>
-    <div class="card w-11/12 mx-auto bg-base-100">
-        <figure class="px-10 pt-10">
-          <img src="images/fruit3.png" alt="Shoes" class="" />
-        </figure>
-        <div class="card-body items-center text-center">
-          <p>Mango</p>         
-        </div>
-      </div>
-    <div class="card w-11/12 mx-auto bg-base-100">
-        <figure class="px-10 pt-10">
-          <img src="images/fruit4.png" alt="Shoes" class="" />
-        </figure>
-        <div class="card-body items-center text-center">
-          <p>Strawberry</p>         
-        </div>
-      </div>
-    <div class="card w-11/12 mx-auto bg-base-100">
-        <figure class="px-10 pt-10">
-          <img src="images/fruit5.png" alt="Shoes" class="" />
-        </figure>
-        <div class="card-body items-center text-center">
-          <p>Pomegranate</p>         
-        </div>
-      </div>
-   
-   
-</div>
+        <div class="hidden lg:flex grid-cols-5  gap-0 absolute -mt-40 ml-32 bg-white rounded-lg shadow-2xl">
+            <div class="card w-11/12 mx-auto bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit1.png" alt="Shoes" class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p>Grape</p>
+                </div>
+            </div>
+            <div class="card w-11/12 mx-auto bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit2.png" alt="Shoes" class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p>Orange</p>
+                </div>
+            </div>
+            <div class="card w-11/12 mx-auto bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit3.png" alt="Shoes" class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p>Mango</p>
+                </div>
+            </div>
+            <div class="card w-11/12 mx-auto bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit4.png" alt="Shoes" class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p>Strawberry</p>
+                </div>
+            </div>
+            <div class="card w-11/12 mx-auto bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit5.png" alt="Shoes" class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <p>Pomegranate</p>
+                </div>
+            </div>
 
-
-
+        </div>
     </header>
 
     <main>
 
+
+
+
+        <!-- =============================== Deal of the Day =================================== -->
+        <section>
+            <div class="grid grid-rows-2 lg:flex justify-around">
+                <div class="w-11/12 mx-auto">
+                    <h1 class="text-center text-4xl font-bold py-4">Deal of the day</h1>
+                    <p class="text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <!-- ================== countdown ============== -->
+                <div class="w-11/12 mx-auto">
+                    <div class="grid grid-flow-col gap-2 text-center justify-center">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>
+                          </span>
+                          days
+                        </div> 
+                        <p class="text-center mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></p>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div> 
+                        <p class="text-center mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></p>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          min
+                        </div> 
+                        <p class="text-center mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></p>
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:55;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+       <br><br><br><br><br><br><br><br>
     </main>
 
     <footer>
