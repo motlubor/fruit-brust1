@@ -28,60 +28,133 @@
 <body class="bg-white font-lato text-black">
 
     <header>
-       
-               <div class=" w-11/12 rounded-full mx-auto flex justify-between items-center bg-[#F85559] text-white">
-        <div class="navbar flex justify-center">
-            <div class="navbar-center">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </label>
 
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box lg:w-52">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
+        <nav class="mb-16">
+            <div class=" w-11/12 rounded-full mx-auto flex justify-between items-center bg-[#F85559] text-white">
+                <div class="navbar flex justify-center">
+                    <div class="navbar-center">
+                        <div class="dropdown">
+                            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </label>
 
-                        <li><a>All Fruits</a></li>
-                    </ul>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box lg:w-52">
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
 
+                                <li><a>All Fruits</a></li>
+                            </ul>
+
+
+                        </div>
+
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+
+                            <li><a>All Fruits</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class=" flex justify-around items-center mr-6">
+                    <img src="images/logo.png" alt="">
+                    <a class="btn btn-ghost normal-case text-xl mr-6">Fruit Burst</a>
 
                 </div>
 
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Shop</a></li>
-
-                    <li><a>All Fruits</a></li>
-                </ul>
-
+                <div class="navbar-start">
+                    <input type="text" placeholder="Search here " class="input input-bordered w-3/4 lg:ml-8" />
+                </div>
             </div>
 
+        </nav>
+
+
+
+
+
+        <!-- ===================== Carousel ============================ -->
+
+
+
+
+
+
+        <div class="w-11/12 mx-auto mb-14">
+            <div class="carousel w-full space-y-5">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/banner1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div class=" w-full flex justify-between items-center">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <div class="text-center text-white">
+                                <h1 class="lg:text-7xl font-extrabold my-3">Exotic tastes at your <br>doorstep</h1>
+                                <p class="lg:my-2 font-semibold">We supply highly quality organic products</p>
+                                <button class="btn text-white bg-[#F85559] border-0 mb-4">Shop Now</button>
+                            </div>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/banner2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
+                        <div class=" w-full flex justify-between items-center">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <div class="text-center text-white">
+                                <h1 class="lg:text-7xl font-extrabold my-3">Exotic tastes at your <br>doorstep</h1>
+                                <p class="lg:my-2 font-semibold">We supply highly quality organic products</p>
+                                <button class="btn text-white bg-[#F85559] border-0 mb-4">Shop Now</button>
+                            </div>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/banner3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
+                        <div class=" w-full flex justify-between items-center">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <div class="text-center text-white">
+                                <h1 class="lg:text-7xl font-extrabold my-3">Exotic tastes at your <br>doorstep</h1>
+                                <p class="lg:my-2 font-semibold">We supply highly quality organic products</p>
+                                <button class="btn text-white bg-[#F85559] border-0 mb-4">Shop Now</button>
+                            </div>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+
+                        <div class=" w-full flex justify-between items-center">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <div class="text-center text-white">
+                                <h1 class="lg:text-7xl font-extrabold my-3">Exotic tastes at your <br>doorstep</h1>
+                                <p class="lg:my-2 font-semibold">We supply highly quality organic products</p>
+                                <button class="btn text-white bg-[#F85559] border-0 mb-4">Shop Now</button>
+                            </div>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class=" flex justify-around items-center mr-6">
-            <img src="images/logo.png" alt="">
-            <a class="btn btn-ghost normal-case text-xl mr-6">Fruit Burst</a>
-
-        </div>
-
-        <div class="navbar-start">
-            <input  type="text" placeholder="Search here "  class="input input-bordered w-3/4 lg:ml-8" />
-        </div>
-       </div>
-
-
-
-
-
-
     </header>
 
     <main>
